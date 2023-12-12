@@ -17,23 +17,23 @@ const Team = () => {
                 <div className="border-[1px] border-[#555] "></div>
                 <div className="border-[1px] border-[#555] text-center py-[15%]">
                   <p className="text-[#555] -ml-[15%]">TAJRIBA</p>
-                  <h2 className=" lg:text-8xl md:text-6xl sm:text-4xl text-black font-buyan">
+                  <h2 className="buyan lg:text-8xl md:text-6xl sm:text-4xl text-black ">
                     {info.experience}
                   </h2>
                 </div>
                 <div className="border-[1px] border-[#555]"></div>
               </div>
               <div className="tajriba">
-                <div className="border-[1px] border-[#555] text-center py-[16%]">
+                <div className="border-[1px] border-[#555] text-center lg:py-[13%] md:py-[10%] sm:py-[5%]">
                   <p className="text-[#555]">количество складов</p>
-                  <h2 className=" lg:text-8xl md:text-6xl sm:text-4xl text-black font-buyan">
+                  <h2 className="buyan lg:text-8xl md:text-6xl sm:text-4xl text-black ">
                     {info.stock}
                   </h2>
                 </div>
                 <div className="border-[1px] border-[#555] py-4"></div>
-                <div className="border-[1px] border-[#555] text-center py-[15%]">
+                <div className="border-[1px] border-[#555] text-center lg:py-[13%] md:py-[10%] sm:py-[5%]">
                   <p className="text-[#555]">Производит продукции более</p>
-                  <h2 className=" lg:text-8xl md:text-6xl sm:text-4xl text-black font-buyan">
+                  <h2 className="buyan lg:text-8xl md:text-6xl sm:text-4xl text-black ">
                     {info.product_number}
                   </h2>
                 </div>
@@ -48,9 +48,9 @@ const Team = () => {
               <div className="">
                 <div className="grid grid-cols-2">
                   <div></div>
-                  <div className="py-[13%] text-center bg-[#153973]">
+                  <div className="lg:py-[13%] md:py-[10%] sm:py-[5%] text-center bg-[#153973]">
                     <p className="text-zinc-300 -ml-[3%] ">Komanda A`zolari</p>
-                    <h2 className="lg:text-8xl md:text-6xl sm:text-4xl text-white ">99+</h2>
+                    <h2 className="lg:text-8xl md:text-6xl sm:text-4xl text-white buyan">99+</h2>
                   </div>
                 </div>
                 <div className="grid grid-cols-2">

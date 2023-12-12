@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
             <img src={cities} alt="" />
         </div>
-        <div className='bg-[#153973] -mt-[5%] py-20 grid lg:grid-cols-4 px-10 md:grid-cols-3 md:gap-3 sm:gap-5 sm:grid-cols-2'>
+        <div className='bg-[#153973] -mt-[5%] py-20 grid lg:grid-cols-4 lg:px-10 md:px-7 sm:px-2 md:grid-cols-3 md:gap-3 sm:gap-5 sm:grid-cols-2'>
              <img src={info.logo} alt="" className='w-[50%]' />
              <div className='flex flex-col'>
                 <h2 className='text-2xl text-white'>Menyu</h2>

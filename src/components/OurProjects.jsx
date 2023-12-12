@@ -9,7 +9,7 @@ const OurProjects = () => {
     const {data , isPending , error}=useFetch(url)
   return (
     <div className='pt-[5%] '>
-    <h1 className=' texts lg:text-7xl md:text-5xl sm:text-3xl text-black ml-[8%]'>BIZNING LOYIHALAR</h1>
+    <h1 className=' buyan lg:text-7xl md:text-5xl sm:text-3xl text-black ml-[8%]'>BIZNING LOYIHALAR</h1>
         <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 px-[5%] gap-8 mt-[3%]'>
     {data && data.map((projects)=>{
         return <>
@@ -25,7 +25,7 @@ const OurProjects = () => {
     })}
     </div>
     <img src={circle6} alt="" className='w-[20%] lg:-mt-[48%] sm:-mt'/>
-    <Link to={'/loyihalar'}><button className='text-black bg-transparent border-[1px] border-black py-2 px-12 hover:bg-black hover:text-white lg:ml-[41%] md:ml-[41%] sm:ml-[20%] mt-[20%] '>Loyihalarni ko`rish</button></Link>
+    <Link to={'/loyihalar'}><button className='text-black bg-transparent border-[1px] border-black py-2 px-12 hover:bg-black hover:text-white lg:ml-[41%] md:ml-[41%] sm:ml-[13%] mt-[20%] '>Loyihalarni ko`rish</button></Link>
     </div>
   )
 }

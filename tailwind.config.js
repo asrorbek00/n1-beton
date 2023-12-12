@@ -6,10 +6,10 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': '340px',
-      // => @media (min-width: 640px) { ... }
+      'sm': '250px',
+      
 
-      'md': '768px',
+      'md': '600px',
       // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',

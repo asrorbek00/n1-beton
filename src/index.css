@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.buyan{
+  font-family: 'Buyan';
+  src: url('../src/font/BuyanRegular.ttf') ;
+  
+  
+  }
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ textarea:focus, input:focus{
 }
 textarea,
 input{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #28314B;
     background-color: transparent;
 }
 .heading{
@@ -72,7 +78,7 @@ body
   
   /* make it look decent enough */
   
-  font-family: "Avenir Next", "Avenir", sans-serif;
+
 }
 
 #menuToggle
@@ -231,13 +237,7 @@ body
 
 .number{
   font-family: 'Gilroy';
-    src: url('./fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+    src: url('../src/font/Gilroy.ttf') ;
     
 
 }
-.texts {
-  font-family: 'Buyan';
-  src: url('./fonts/Buyan/BuyanRegular.ttf') format('truetype');
-  
-  
-  }

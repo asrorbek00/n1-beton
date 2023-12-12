@@ -53,8 +53,8 @@ const Technics = () => {
       })}
       </Swiper>
       <div className='mb-[50%]'>
-        <img src={circle7} alt="" className=' w-[23%] lg:-mt-[49%] sm:-mt-[60%] ' />
-        <h1 className=' texts lg:text-7xl md:text-5xl sm:text-3xl text-black lg:-mt-[42%] sm:-mt-[36%] ml-[2%] ' id='technics'>BIZNING TEXNIKALAR</h1>
+        <img src={circle7} alt="" className=' lg:w-[23%] lg:-mt-[49%] sm:w-0 ' />
+        <h1 className='buyan lg:text-7xl md:text-5xl sm:text-3xl text-black lg:-mt-[42%] sm:-mt-[86%] ml-[2%] ' id='technics'>BIZNING TEXNIKALAR</h1>
     </div>
     </>
   )

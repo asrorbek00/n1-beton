@@ -57,16 +57,16 @@ const Contact = () => {
   return (
     <>
       <div  id="contact">
-        <h1 className="lg:text-7xl md:text-5xl sm:text-4xl text-black ml-[8%]">BIZ BILAN BOG`LANISH</h1>
+        <h1 className="lg:text-7xl md:text-5xl sm:text-4xl text-black ml-[8%] buyan">BIZ BILAN BOG`LANISH</h1>
       </div>
       <div className=" ml-[8%] map pt-20">
-        <div className="px-5 bg-[#FFF] contact  py-14  ml-8 lg:w-[38%]  sm:w-[80%] flex flex-col gap-10 rounded-xl ">
-          <h1 className="text-3xl text-black text-center">
+        <div className="px-5 bg-[#FFF] contact  py-14  ml-8 lg:w-[35%]  sm:w-[80%] flex flex-col gap-10 rounded-xl ">
+          <h1 className="text-3xl text-black text-center number">
             Biz Bilan Bog`lanish
           </h1>
           <form onSubmit={handleSubmit}>
             <ToastContainer />
-            <div className="flex gap-3 mb-14">
+            <div className="flex gap-3 lg:mb-16 sm:mb-5">
               <input
                 className="pl-2 pb-1 w-full"
                 type="text"
@@ -84,7 +84,7 @@ const Contact = () => {
                 onChange={handleChange}
               />
             </div>
-            <div className="flex gap-3 mb-14">
+            <div className="flex gap-3 lg:mb-16 sm:mb-5">
               <input
                 className="pl-2 pb-1  w-full"
                 type="text"
@@ -102,7 +102,7 @@ const Contact = () => {
                 onChange={handleChange}
               />
             </div>
-            <div className="flex gap-3 mb-12">
+            <div className="flex gap-3 lg:mb-16 sm:mb-5">
               <textarea
                 className="pl-2 pb-1 resize-none w-full "
                 placeholder="Xabar"
@@ -113,7 +113,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-800 text-white py-2 px-10 rounded-lg lg:ml-[28%] md:ml-[23%] sm:ml-[20%] "
+              className="bg-blue-800 text-white py-2 lg:px-10 sm:px-5 rounded-lg lg:ml-[28%] md:ml-[23%] sm:ml-[0%] "
             >
               Xabar qoldirish
             </button>
