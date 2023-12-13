@@ -238,7 +238,7 @@ body
 
 @font-face{
   font-family: 'Gilroy';
-    src: url('../src/font/FontsFree-Net-Gilroy-Light.ttf') ;
+    src: url('../src/font/FontsFree-Net-Gilroy-Bold\(1\).ttf') ;
     
     
     
@@ -257,25 +257,30 @@ body
   font-weight: 400;
   line-height: normal;
 }
+.contacti{
+  display: none;
+}
+
 
 @media screen and (min-width:1500px){
-  .team-image{
-    height: 403px;
-    width: fit-content;
-  }
+  
   
 }
 @media screen and (min-width:1800px){
-  .team-image{
-    height: 448px;
-    width: fit-content;
+  
+  .team-manage h2{
+    font-size: 200px;
   }
+  .intenn{
+    width: 50%;
+  }
+  .contacti{
+    display: block;
+  }
+
   
 }
 @media screen and (min-width:2000px){
-  .team-image{
-    height: 536px;
-    width: fit-content;
-  }
+  
   
 }

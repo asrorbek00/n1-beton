@@ -13,11 +13,11 @@ const Heading = () => {
             <div className='flex items-center'>
             <img src={circle1} alt="" className=' lg:w-[30%] md:w-[28%] sm:w-[60%] ml-[4%] lg:mt-[1.4%] sm:-mt-[12%] lg:ml-10 md:ml-0 sm:-ml-[10%]'  />
             <div className='flex flex-col sm:mt-5 '>
-            <h1 className='  lg:text-7xl md:text-5xl sm:text-3xl  lg:w-4/5 md:w-4/5  sm:w-fit text-center text-white font-semibold lg:-ml-[10%] sm:-ml-[20%] number'>{info.title}</h1>
-            <p className='text-center lg:text-xl sm:text-sm lg:w-[44%] md:w-[50%] lg:ml-[10%] sm:-ml-[10%]  text-[#c1c1c1] number'>{info.text}</p>
+            <h1 className='font-buyan  lg:text-7xl md:text-5xl sm:text-3xl  lg:w-[95%] md:w-4/5  sm:w-fit text-center text-white  lg:-ml-[10%] sm:-ml-[20%] gilroy  text-transform: uppercase mb-6'>{info.title}</h1>
+            <p className='text-center  lg:text-xl sm:text-sm lg:w-[35%] md:w-[50%] lg:ml-[19%] sm:-ml-[10%]  text-[#c1c1c1] number'>{info.text}</p>
             </div>
             </div>
-            <div className='grid  lg:grid-cols-3 md:grid-cols-2 pb-10 text-center sm:mt-10'>
+            <div className='grid  lg:grid-cols-3 md:grid-cols-2 pb-10 text-center sm:mt-10 '>
                 <div>
                     <h1 className='text-xl text-white'>24/7 mijozlarni qollab quvvatlash</h1>
                     <p className='text-lg text-[#c1c1c1] number'>+998 95 204 08 00</p>

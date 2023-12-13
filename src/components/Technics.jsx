@@ -35,7 +35,11 @@ const Technics = () => {
       >
       
       <SwiperSlide>{ text && text.map((texts)=>{
-         return <p className='lg:text-2xl sm:text-sm lg:w-2/3 sm:w-fit'>{texts.text}</p>
+         return <div className='flex flex-col lg:gap-64'>
+          <p className='lg:text-2xl sm:text-sm lg:w-2/3 sm:w-fit'>{texts.text}</p>
+          <a href="tel:998952040800" className='contacti'><button className='text-2xl py-2 px-10 lg:ml-32 border-2 border-black hover:bg-black hover:text-white '>Bog`lanish</button></a>
+          </div>
+          
         })}</SwiperSlide>
       {data && data.map((video)=>{
         return <>
@@ -44,8 +48,8 @@ const Technics = () => {
         <ReactPlayer
         url={video.video} // Assuming the first video from the API
         playing={playing}
-        width="100%"
-        height="auto"
+        width="80%"
+        height="80%"
         controls
       />
       </SwiperSlide>
@@ -53,7 +57,7 @@ const Technics = () => {
       })}
       </Swiper>
       <div className='mb-[50%]'>
-        <img src={circle7} alt="" className=' lg:w-[23%] lg:-mt-[49%] sm:w-0 ' />
+        <img src={circle7} alt="" className=' lg:w-[23%] lg:-mt-[40%] sm:w-0 ' />
         <h1 className='buyan lg:text-7xl md:text-5xl sm:text-3xl text-black lg:-mt-[42%] sm:-mt-[86%] ml-[2%] ' id='technics'>BIZNING TEXNIKALAR</h1>
     </div>
     </>

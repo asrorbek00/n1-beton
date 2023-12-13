@@ -20,16 +20,16 @@ const Footer = () => {
              <img src={info.logo} alt="" className='w-[50%]' />
              <div className='flex flex-col'>
                 <h2 className='text-2xl text-white'>Menyu</h2>
-                <a href="" className='text-[#898989]'>Asosiy</a>
-               <Link to={'/maxsulotlar'}> <a  className='text-[#898989]'>Maxsulotlar</a></Link>
-               <Link to={'/jamoa'}><a className='text-[#898989]'>Jamoa</a></Link>
-               <Link to={'/loyihalar'}><a  className='text-[#898989]'>Loyihalar</a></Link>
+                <a href="" className='text-[#898989] lg:text-xl'>Asosiy</a>
+               <Link to={'/maxsulotlar'}> <a  className='text-[#898989] lg:text-xl'>Maxsulotlar</a></Link>
+               <Link to={'/jamoa'}><a className='text-[#898989] lg:text-xl'>Jamoa</a></Link>
+               <Link to={'/loyihalar'}><a  className='text-[#898989] lg:text-xl'>Loyihalar</a></Link>
              </div>
              <div className='flex flex-col'>
                 <h2 className='text-2xl text-white'>Bo`limlar</h2>
-                <a href="#about" className='text-[#898989]'>Biz Haqimizda</a>
-                <a href="#contact" className='text-[#898989]'>Bog`lanish</a>
-                <a href="#technics" className='text-[#898989]'>Texnikalar</a>
+                <a  href="#about" className='text-[#898989] lg:text-xl'>Biz Haqimizda</a>
+                <a  href="#contact" className='text-[#898989] lg:text-xl'>Bog`lanish</a>
+                <a  href="#technics" className='text-[#898989] lg:text-xl'>Texnikalar</a>
              </div>
              <div>
              <h2 className='text-xl text-white '>Ma`lumot</h2>
@@ -39,13 +39,13 @@ const Footer = () => {
          </div>
          <div className='flex gap-2 mb-2 text-white'>
           <span><BiPhone size={25} fill='white'/></span>
-          <p><a href={`tel:${info.phone}`}>{info.phone}</a></p>
+          <p className='lg:text-xl'><a href={`tel:${info.phone}`}>{info.phone}</a></p>
          </div>
          <div className='flex gap-2 text-white'>
           <span><FaInstagram size={25} fill='white'/></span>
-          <p><a href={info.instagram}>@n1_beton</a></p>
+          <p className='lg:text-xl'><a href={info.instagram}>@n1_beton</a></p>
          </div>
-         <div className=' flex gap-5 mt-5'>
+         <div className=' flex gap-5 mt-5 '>
             <span><a href=""><FaTelegram size={30} fill='white'/></a></span>
             <span><a href={info.facebook}><FaFacebook size={30} fill='white'/></a></span>
             <span><a href={info.instagram}><FaInstagram size={30} fill='white'/></a></span>
@@ -58,7 +58,7 @@ const Footer = () => {
     })}
     <div className='bg-[#153973] px-[10%] text-center py-8 -mt-8'>
     <hr className='mb-3'/>
-       <h2 className='text-md text-white'> 2023 @n1_beton</h2>
+       <h2 className='text-md text-white'> 2023 @<span className='font-bold'>Nomer N1 Beton</span> </h2>
     </div>
     </div>
   )

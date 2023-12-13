@@ -27,20 +27,6 @@ const Projects = () => {
                <h2 className='text-2xl text-black font-semibold'>{projects.title}</h2>
                <p  className='text-xl'>{projects.text}</p>
             </div>
-            <div className='flex flex-col gap-2 cursor-pointer '>
-               <img src={projects.image} alt="" className='rounded-xl' />
-               <img src={projects.logo} alt="" className='w-[22%]' />
-               <hr className='border-[1px] border-gray-600 w-[22%]' />
-               <h2 className='text-2xl text-black font-semibold'>{projects.title}</h2>
-               <p  className='text-xl'>{projects.text}</p>
-            </div>
-            <div className='flex flex-col gap-2 cursor-pointer '>
-               <img src={projects.image} alt="" className='rounded-xl' />
-               <img src={projects.logo} alt="" className='w-[22%]' />
-               <hr className='border-[1px] border-gray-600 w-[22%]' />
-               <h2 className='text-2xl text-black font-semibold'>{projects.title}</h2>
-               <p  className='text-xl'>{projects.text}</p>
-            </div>
             
         </>
     })}

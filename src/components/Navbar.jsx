@@ -25,7 +25,7 @@ const Navbar = () => {
       <li><a href="#about" className=' hover:text-white text-gray-300 border-white text-lg'>Biz Haqimizda</a></li>
       <li><Link to={'/maxsulotlar'}><a href=""  className='hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Maxsulotlar</a></Link></li>
       <li><a href="#technics" className=' hover:text-white text-gray-300 border-white text-lg'>Texnikalar</a></li>
-      <li><Link to={'/jamoa'}><a href="" className=' hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Jamoa</a></Link></li>
+      <li><Link to={'/loyihalar'}><a href="" className=' hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Loyihalar</a></Link></li>
       <li><a href="#contact" className=' hover:text-white text-gray-300 border-white text-lg'>Kontaktlar</a></li>
     </ul>
   </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
             <a href="#about" className=' hover:text-white text-gray-300 border-white text-lg'>Biz Haqimizda</a>
             <Link to={'/maxsulotlar'}><a href=""  className='hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Maxsulotlar</a></Link>
             <a href="#technics" className=' hover:text-white text-gray-300 border-white text-lg'>Texnikalar</a>
-            <Link to={'/jamoa'}><a href="" className=' hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Jamoa</a></Link>
+            <Link to={'/loyihalar'}><a href="" className=' hover:border-b-[1px] hover:text-white text-gray-300 border-white text-lg'>Loyihalar</a></Link>
             <a href="#contact" className=' hover:text-white text-gray-300 border-white text-lg'>Kontaktlar</a>
           </div>
         </div>

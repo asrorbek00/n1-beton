@@ -113,7 +113,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-800 text-white py-2 lg:px-10 sm:px-5 rounded-lg lg:ml-[28%] md:ml-[23%] sm:ml-[0%] "
+              className="bg-blue-900 text-white py-2 lg:px-10 sm:px-5 rounded-lg lg:ml-[28%] md:ml-[23%] sm:ml-[0%] "
             >
               Xabar qoldirish
             </button>
